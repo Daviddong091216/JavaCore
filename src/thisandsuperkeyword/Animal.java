@@ -1,5 +1,10 @@
 package thisandsuperkeyword;
 
+//Super keyword in java is a reference variable which is refers immediate parent or super class object. 
+//In other words, Super keyword is used to access the members of parent class.
+
+
+
 //super() for constructor;
 //this(name) for constructor;
 
@@ -26,6 +31,11 @@ public class Animal {
 		this.name = name;
 	}
 
+//	Can we use both "this" and "super" in constructor?
+//			No, It is not possible in java we cannot use both this and super keyword together in java constructor 
+//			because this and super should be the first statement in any java constructor.
+	
+	
 	public Animal(String name, int age) {
 		this(name);
 		this.age = age;

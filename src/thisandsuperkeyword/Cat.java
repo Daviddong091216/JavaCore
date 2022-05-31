@@ -1,5 +1,9 @@
 package thisandsuperkeyword;
 
+
+//super.m1() call super class method
+//super.sName call super variables
+
 public class Cat extends Animal{
 	
 	public String sname;
